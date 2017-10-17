@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_margin="10dp"
+    >
+
+    <ImageView
+        android:id="@+id/imgCapa"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:src="@drawable/img_default"
+        android:background="@color/preto"
+        android:scaleType="fitXY"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:elevation="6dp">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="5dp">
+                android:layout_marginTop="5dp">
+                android:layout_marginRight="5dp">
+
+                <TextView
+                    android:id="@+id/tvTitulo"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Deadpool"
+                    android:textColor="@color/preto"
+                    android:textSize="20sp"
+                    android:maxLines="1"
+                    android:layout_weight="1"/>
+
+                <TextView
+                    android:id="@+id/tvAvaliacao"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="3dp"
+                    android:text="7.5"
+                    android:textSize="20sp"
+                    android:textColor="@color/preto"/>
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:layout_marginLeft="3dp"
+                    android:src="@drawable/ic_star"
+                    android:textColor="@color/preto"
+                    android:layout_marginTop="5dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_action_calendar_day"
+                    android:layout_weight="3"/>
+                <TextView
+                    android:id="@+id/tvAnoLancamento"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="2016"
+                    android:layout_weight="3"
+                    android:layout_marginTop="10dp"/>
+                <TextView
+                    android:id="@+id/tvCategorias"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="5dp"
+                    android:maxLines="1"
+                    android:text="Ação, Aventura, Comédia"/>
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/tvSinopse"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:maxLines="5"
+                android:layout_margin="5dp"
+                android:text="Steve Rogers (Chris Evans) é o atual líder dos Vingadores, super-grupo de heróis formado por Viúva Negra (Scarlett Johansson), Feiticeira Escarlate (Elizabeth Olsen…"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="3"
+            android:orientation="horizontal"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            >
+
+            <TextView
+                android:id="@+id/tvMaisInformacoes"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Mais informações"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"/>
+
+            <ImageView
+                android:id="@+id/imgExcluir"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="2"
+                android:src="@drawable/ic_action_trash" />
+
+            <ImageView
+                android:id="@+id/imgAssistirMaisTarde"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginTop="2dp"
+                android:layout_weight="2"
+                android:src="@drawable/ic_action_clock" />
+
+            <ImageView
+                android:id="@+id/imgAssistido"
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="4dp"
+                android:layout_weight="2"
+                android:src="@drawable/ic_play_circle_outline" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

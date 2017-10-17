@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@color/drawerColor">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:padding="16dp"
+        android:gravity="bottom"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/movie_teca"
+            android:id="@+id/ivLogo"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:textColor="@color/branco"
+            android:textSize="14sp"
+            android:id="@+id/tvAppName"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/branco"
+            android:textSize="12sp"
+            android:paddingTop="6dp"
+            android:id="@+id/tvEmail"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>
